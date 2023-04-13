@@ -9,6 +9,10 @@ N = int(input('Введите количество долек в ширину: '
 M = int(input('Введите количество долек в длинну: '))
 K = int(input('Сколько долек хотим отломить: '))
 
-if K == N or K == M or K % N == 0 or K % M == 0:
-    print('Yes')
-else: print('No')
+if K < (N*M):
+
+    if K == N or K == M or K % N == 0 or K % M == 0:
+        print('Yes')
+    else: print('No')
+
+else: print('Количество долек в шоколадке недостаточно')
