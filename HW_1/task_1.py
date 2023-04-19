@@ -4,10 +4,10 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0) |
 
-Number = int(input('Введите трехзначное число: '))
+number = int(input('Введите трехзначное число: '))
  
-if Number > 99 and Number < 1000:
-    print ('Сумма чисел равна: ' , Number // 100 + (Number // 10) % 10 + Number % 10) 
+if number > 99 and number < 1000:
+    print ('Сумма чисел равна: ' , number // 100 + (number // 10) % 10 + number % 10) 
 else: print ('Вы ввели не трехзначное число.')
 
 
