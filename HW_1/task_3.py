@@ -6,13 +6,13 @@
 # 385916 -> yes
 # 123456 -> no
 
-Number = input('Введите шестизначное число: ')
+number = input('Введите шестизначное число: ')
 
-if len(Number) == 6:
-    Part_1 = int(Number[0]) + int(Number[1]) + int(Number[2])
-    Part_2 = int(Number[3]) + int(Number[4]) + int(Number[5])
+if len(number) == 6:
+    part_1 = int(number[0]) + int(number[1]) + int(number[2])
+    part_2 = int(number[3]) + int(number[4]) + int(number[5])
 
-    if Part_1 == Part_2:
+    if part_1 == part_2:
         print('Yes')
     else: print('No')
     
