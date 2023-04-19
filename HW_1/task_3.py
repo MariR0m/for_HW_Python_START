@@ -6,7 +6,7 @@
 # 385916 -> yes
 # 123456 -> no
 
-Number = (input('Введите шестизначное число: '))
+Number = input('Введите шестизначное число: ')
 
 if len(Number) == 6:
     Part_1 = int(Number[0]) + int(Number[1]) + int(Number[2])
