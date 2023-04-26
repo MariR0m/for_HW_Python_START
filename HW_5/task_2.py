@@ -6,15 +6,15 @@
 # 2 2
 #     4 
 
-a = int(input('Введите число a: '))
-b = int(input('Введите число b: '))
-
 def sum(a,b):
     b-=1
     summa = 1
     if b < 1:
         return a+1
     return summa+sum(a,b)
+
+a = int(input('Введите число a: '))
+b = int(input('Введите число b: '))
 
 if a == 0 and b == 0:
     print(0)

@@ -5,14 +5,14 @@
 # A = 3; B = 5 -> 243 (3⁵)
 #     A = 2; B = 3 -> 8 
 
-a = int(input('Введите число: '))
-b = int(input('Введите степень: '))
-
 def expo(a,b):
     b-=1
     if b < 1:
         return a
     return a*expo(a,b)
+
+a = int(input('Введите число: '))
+b = int(input('Введите степень: '))
 
 if b == 0:
     print(1)
