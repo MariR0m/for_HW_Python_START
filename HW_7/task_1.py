@@ -13,8 +13,7 @@
 stix = input('Введите стихотворение: ')
 stix = stix.split()
 
-lst = [sum(x in 'йуеёыаоэяию' for x in lin) for lin in stix]
+lst = [sum(x in 'уеёыаоэяию' for x in lin) for lin in stix]
 
-if len(set(lst)) == 1 :
-    print ('Парам пам-пам')
+if len(set(lst)) == 1 : print ('Парам пам-пам')
 else: print ('Пам парам')
